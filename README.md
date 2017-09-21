@@ -15,9 +15,8 @@ app.use(ExpressXRequestId.middleware);
 
 ```javascript
 app.use(bodyParser.json());
-```
-
-## Adding dependency
+```ct
+## Adding dependency to the project
 
 Add this into your package.json file.
 
