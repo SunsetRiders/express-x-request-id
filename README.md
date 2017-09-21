@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 ## Adding dependency to the project
 
-Add this into your package.json file.
+Add this into your **package.json** file.
 
 **IMPORTANT: This is not a npm module but will work the same way, you must add manualy because the base code is here in GitHub.**
 
@@ -30,7 +30,7 @@ Add this into your package.json file.
 }
  ```
  
- Relax! If you use npm install will be installed like a npm module direct to the node_modules folder. :)
+ If you use **npm install** will be installed like a npm module direct to the **node_modules** folder.
  
  
  ## Obtaining the generated request id
