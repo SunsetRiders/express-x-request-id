@@ -1,5 +1,5 @@
 const uuid = require("uuid");
-sdsd
+
 /**
  * This class provide a simple middleware
  * to set a X-Request-Id UUID token into response header.
