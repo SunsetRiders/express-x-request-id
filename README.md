@@ -32,7 +32,7 @@ Add this into your package.json file.
  
  ## Obtaining the generated request id
  
- Since the request id is linked to the response (res) object, to access you smut do:
+ Since the request id is linked to the response (res) object, to access you must write:
  
  ```javascript
  res._headers['x-request-id'];
