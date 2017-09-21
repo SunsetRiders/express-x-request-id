@@ -2,10 +2,10 @@
 
 A simple express middleware to create and bind a X-Request-Id header.
 
-# Usage
+## Usage
 
 ```javascript
-const ExpressXRequestId   = require('express-x-request-id');
+const ExpressXRequestId = require('express-x-request-id');
 
 // Set middleware express X-Request-Id
 app.use(ExpressXRequestId.middleware);
