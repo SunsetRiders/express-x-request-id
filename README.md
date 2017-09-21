@@ -30,6 +30,9 @@ Add this into your package.json file.
 }
  ```
  
+ Relax! If you use npm install will be installed like a npm module direct to the node_modules folder. :)
+ 
+ 
  ## Obtaining the generated request id
  
  Since the request id is linked to the response (res) object, to access you must write:
