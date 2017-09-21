@@ -11,7 +11,7 @@ const ExpressXRequestId   = require('express-x-request-id');
 app.use(ExpressXRequestId.middleware);
 ```
 
-**IMPORTANT: This middleware should be after**
+**IMPORTANT: This middleware should be immediately after**
 
 ```
 app.use(bodyParser.json());
