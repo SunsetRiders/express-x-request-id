@@ -1,0 +1,30 @@
+{
+  "name": "express-x-request-id",
+  "version": "1.0.0",
+  "description": "A simple express middleware to create and bind a X-Request-Id header.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunsetRiders/express-x-request-id.git"
+  },
+  "scripts":{
+    "watch": "clear && nodemon index.js",
+    "start": "clear && nodejs index.js"
+  },
+  "keywords": [
+    "express",
+    "request-id"
+  ],
+  "author": "Daitan Group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunsetRiders/express-x-request-id/issues"
+  },
+  "homepage": "https://github.com/SunsetRiders/express-x-request-id#readme",
+  "dependencies": {
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
