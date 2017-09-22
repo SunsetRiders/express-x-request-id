@@ -17,7 +17,7 @@ app.use(ExpressXRequestId.middleware);
 app.use(bodyParser.json());
 ```
 
-## Adding dependency to the project
+## Adding the module to the project
 
 Add this into your **package.json** file.
 
