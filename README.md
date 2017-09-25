@@ -47,5 +47,8 @@ Add this into your **package.json** file.
  Since the request id is linked to the request (req) object, to access you must write:
  
  ```javascript
- req.xRequestId;
+ app.use('/', (req, res) => {
+  console.log(req.xRequestId;);
+  //The output will be something like: f2bf0a3b-5d34-43ad-879b-6eceaa0b089e
+ );
   ```
