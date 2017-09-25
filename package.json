@@ -7,13 +7,13 @@
     "type": "git",
     "url": "git+https://github.com/SunsetRiders/express-x-request-id.git"
   },
-  "scripts":{
+  "scripts": {
     "watch": "clear && nodemon index.js",
     "start": "clear && nodejs index.js"
   },
   "keywords": [
     "express",
-    "request-id"
+    "x-request-id"
   ],
   "author": "Daitan Group",
   "license": "ISC",
@@ -25,6 +25,12 @@
     "uuid": "^3.1.0"
   },
   "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-sunset-nodejs": "git+https://git@github.com/SunsetRiders/eslint-config-sunset-nodejs.git",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
     "nodemon": "^1.12.1"
   }
 }
