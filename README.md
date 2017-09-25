@@ -1,14 +1,17 @@
 # Express X-Request-Id
 
-A simple express middleware to create and bind a X-Request-Id header.
+A simple express middleware to create and bind a X-Request-Id to request and response objects.
 
 ## Usage
 
 ```javascript
 const ExpressXRequestId = require('express-x-request-id');
 
-// Set middleware express X-Request-Id
-app.use(ExpressXRequestId.middleware);
+// Set request middleware express
+app.use(ExpressXRequestId.requestMiddleware);
+
+// Set response middleware express
+app.use(ExpressXRequestId.responseMiddleware);
 ```
 
 **IMPORTANT: This middleware should be immediately after.**
@@ -33,13 +36,16 @@ Add this into your **package.json** file.
  If you use **npm install** will be installed like a npm module direct to the **node_modules** folder.
  
  
+ You can also install with terminal.
+ 
+ ```
+ $ npm i --save git+https://github.com/SunsetRiders/express-x-request-id.git
+```
+ 
  ## Obtaining the generated request id
  
- Since the request id is linked to the response (res) object, to access you must write:
+ Since the request id is linked to the request (req) object, to access you must write:
  
  ```javascript
- res._headers['x-request-id'];
+ req.xRequestId;
   ```
-  
-  **IMPORTANT: ['x-request-id'] must be in lowercase.**
-
