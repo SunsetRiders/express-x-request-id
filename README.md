@@ -29,7 +29,7 @@ Add this into your **package.json** file.
 ```javascript
 "dependencies": {
   ...
-  "express-x-request-id": "git@github.com:SunsetRiders/express-x-request-id.git"
+  "express-x-request-id": "SunsetRiders/express-x-request-id#master"
 }
  ```
  
