@@ -1,6 +1,6 @@
 {
   "name": "express-x-request-id",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple express middleware to create and bind a X-Request-Id header.",
   "main": "index.js",
   "repository": {
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "watch": "clear && nodemon index.js",
-    "start": "clear && nodejs index.js"
+    "start": "clear && nodejs index.js",
+    "test": "eslint ."
   },
   "keywords": [
     "express",

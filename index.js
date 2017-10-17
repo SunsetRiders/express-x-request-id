@@ -23,7 +23,8 @@ class ExpressXRequestId {
    * @param {Function} next Next function
    */
   static responseMiddleware(req, res, next) {
-    res.set('X-Request-Id', req.get('X-Request-Id'));
+    const requestId = req.xRequestId || req.get('X-Request-Id');
+    res.set('X-Request-Id', requestId);
     next();
   }
 }
